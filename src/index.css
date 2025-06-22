@@ -1,0 +1,254 @@
+/* Se estiver usando TailwindCSS, adicione estas diretivas no topo */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Estilos globais da aplicação */
+body {
+    background-color: #0f172a; /* bg-slate-900 */
+    color: white;
+}
+
+/* Animações */
+@keyframes fade-in { 
+    from { opacity: 0; } 
+    to { opacity: 1; } 
+}
+
+@keyframes fade-in-up {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in { 
+    animation: fade-in 0.5s ease-out forwards; 
+}
+
+.animate-fade-in-up { 
+    animation: fade-in-up 0.5s ease-out forwards; 
+}
+
+/* Efeito de Sorteio "Glassmorphism" Aprimorado */
+.glass-highlight {
+    z-index: 5;
+    border-radius: 0.5rem; /* igual ao rounded-lg do Tailwind */
+    background-color: hsla(0, 0%, 100%, 0.1); /* Um leve brilho branco para o vidro */
+    backdrop-filter: blur(2px);
+    
+    /* O brilho aprimorado que envolve todo o quadrado */
+    box-shadow: 
+      /* Brilho interno para dar cor ao "vidro" */
+      inset 0 0 20px -5px var(--highlight-color),
+      /* Brilho externo principal, mais espalhado */
+      0 0 35px -5px var(--highlight-color),
+      /* Brilho externo secundário, mais sutil, para dar profundidade */
+      0 0 50px -15px var(--highlight-color);
+
+    border: 2px solid var(--highlight-color);
+    transition: background-color 0.1s ease-in-out, box-shadow 0.1s ease-in-out, border-color 0.1s ease-in-out;
+}
+
+/* Animação do carimbo */
+@keyframes stamp-in {
+    0% { opacity: 0; transform: scale(3) rotate(-30deg); }
+    60% { opacity: 1; transform: scale(0.9) rotate(-10deg); }
+    80% { transform: scale(1.05) rotate(-17deg); }
+    100% { opacity: 1; transform: scale(1) rotate(-15deg); }
+}
+
+.animate-stamp-in {
+    animation: stamp-in 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+
+.stamp-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+/* Sombras de texto */
+.text-shadow-lg {
+    text-shadow: 0 2px 4px rgba(0,0,0,0.8);
+}
+.text-shadow-md {
+    text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+}
+/* Estilos para o Card 3D Flip */
+.flip-card {
+    background-color: transparent;
+    perspective: 1000px;
+  }
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+  }
+  .flip-card.flipped .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 0.5rem;
+    overflow: hidden;
+  }
+  .flip-card-back {
+    background-color: #1e293b;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    padding: 0.75rem;
+    border: 1px solid #334155;
+  }
+  
+  /* Efeito de Hover */
+  .anime-card-hover {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .anime-card-hover:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3), 0 0 20px rgba(99, 102, 241, 0.4);
+  }
+  
+  /* Scrollbar Customizado */
+  .custom-scrollbar::-webkit-scrollbar { width: 8px; }
+  .custom-scrollbar::-webkit-scrollbar-track { background: transparent; }
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: #475569;
+    border-radius: 10px;
+    border: 2px solid #1e293b;
+  }
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover { background-color: #64748b; }
+  .custom-scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: #475569 transparent;
+  }
+/* --- Estilos Finais da "Jackpot Machine" --- */
+.jackpot-container {
+  position: relative;
+  width: 150px;
+  height: 208px;
+  border-radius: 1rem;
+  overflow: hidden;
+  background: #1e293b;
+  box-shadow: inset 0 0 15px rgba(0,0,0,0.5);
+  border: 3px solid #334155;
+}
+
+/* NOVO: Estilo para o poster grande */
+.jackpot-container-large {
+  position: relative;
+  width: 260px;
+  height: 352px;
+  border-radius: 1rem;
+  overflow: hidden;
+  background: #1e293b;
+  box-shadow: inset 0 0 15px rgba(0,0,0,0.5);
+  border: 3px solid #334155;
+}
+
+.jackpot-container-large .jackpot-image {
+  height: 352px;
+}
+
+.jackpot-container-large .jackpot-winner-line {
+   height: 4px;
+   box-shadow: 0 0 15px #facc15, 0 0 25px #facc15;
+}
+
+.jackpot-container-large .jackpot-result-overlay {
+  padding: 3rem 1rem 1rem;
+}
+.jackpot-container-large .jackpot-result-title {
+  font-size: 1.5rem; /* text-2xl */
+}
+.jackpot-container-large .jackpot-result-info {
+  font-size: 1rem; /* text-base */
+}
+
+
+.jackpot-reel {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.jackpot-winner-card {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.jackpot-image {
+  width: 100%;
+  height: 208px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.jackpot-overlay {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(
+      to bottom,
+      rgba(30, 41, 59, 1) 0%,
+      rgba(30, 41, 59, 0) 25%,
+      rgba(30, 41, 59, 0) 75%,
+      rgba(30, 41, 59, 1) 100%
+  );
+  z-index: 2;
+}
+
+.jackpot-winner-line {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: #facc15; /* yellow-400 */
+  transform: translateY(-50%);
+  box-shadow: 0 0 10px #facc15, 0 0 20px #facc15;
+  z-index: 3;
+  border-radius: 3px;
+}
+
+.jackpot-result-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to top, rgba(0,0,0,0.95) 30%, transparent);
+  padding: 2.5rem 0.75rem 0.75rem;
+  text-align: center;
+  z-index: 4;
+}
+
+.jackpot-result-title {
+  font-weight: 800;
+  color: white;
+  font-size: 1.125rem;
+  line-height: 1.2;
+  text-shadow: 0 1px 3px black;
+  margin-bottom: 0.25rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.jackpot-result-info {
+  font-size: 0.875rem;
+  color: #cbd5e1;
+  font-weight: 500;
+  text-shadow: 0 1px 2px black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

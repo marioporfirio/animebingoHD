@@ -1,0 +1,113 @@
+{
+  "c5df762a-bfec-4007-b20f-2cdf4e90fdf8": {
+    "name": "Akihabara da Treta - Modo Infinito",
+    "createdAt": "2025-05-25T01:28:10.485Z",
+    "createdBy": "0fcd049d-0f88-440a-8164-e4741c416477",
+    "gameMode": "infinito",
+    "currentPhase": "TRACKING",
+    "participants": [
+      {
+        "id": "f7562b8c-24ca-4ea3-865a-cce81d94765b",
+        "name": "Caio",
+        "anilistUser": "",
+        "color": "#e97171",
+        "addedBy": "0fcd049d-0f88-440a-8164-e4741c416477",
+        "assignedGenre": "Militar",
+        "chosenAnime": "Mobile Suit Gundam: The Witch from Mercury",
+        "watched": false,
+        "indications": [
+          { "indicatorId": "9dd79bbd-4efd-4aea-9249-d2f595cb9721", "indicatorName": "Mario", "animeTitle": "Yomigaeru Sora: Rescue Wings", "animeData": { "id": "798", "title": { "romaji": "Yomigaeru Sora: Rescue Wings" }, "coverImage": { "extraLarge": "https://cdn.myanimelist.net/images/anime/1255/120063l.jpg" }, "averageScore": 74 } },
+          { "indicatorId": "a36d12ac-d93e-438e-9337-6542e0a6be7e", "indicatorName": "Mateus", "animeTitle": "Mobile Suit Gundam: The Witch from Mercury", "animeData": { "id": "49828", "title": { "romaji": "Mobile Suit Gundam: The Witch from Mercury" }, "coverImage": { "extraLarge": "https://cdn.myanimelist.net/images/anime/1440/127624l.jpg" }, "averageScore": 79 } },
+          { "indicatorId": "282653d5-8873-4407-84cc-d671a25f0041", "indicatorName": "Gonza", "animeTitle": "Zipang", "animeData": { "id": "29", "title": { "romaji": "Zipang" }, "coverImage": { "extraLarge": "https://cdn.myanimelist.net/images/anime/13/75740l.jpg" }, "averageScore": 75 } },
+          { "indicatorId": "1f7479ec-7ea4-4a64-ad1d-9c03844514bf", "indicatorName": "Ray", "animeTitle": "Gunslinger Girl", "animeData": { "id": "134", "title": { "romaji": "Gunslinger Girl" }, "coverImage": { "extraLarge": "https://cdn.myanimelist.net/images/anime/5/3088l.jpg" }, "averageScore": 74 } },
+          { "indicatorId": "01ae7b05-2a54-42b4-b0e5-e1a56cbecb84", "indicatorName": "Viny", "animeTitle": "She, The Ultimate Weapon", "animeData": { "id": "529", "title": { "romaji": "She, The Ultimate Weapon" }, "coverImage": { "extraLarge": "https://cdn.myanimelist.net/images/anime/1/529l.jpg" }, "averageScore": 71 } }
+        ]
+      },
+      {
+        "id": "282653d5-8873-4407-84cc-d671a25f0041",
+        "name": "Gonza",
+        "anilistUser": "",
+        "color": "#a8d8ea",
+        "addedBy": "0fcd049d-0f88-440a-8164-e4741c416477",
+        "assignedGenre": "Mistério/Policial",
+        "chosenAnime": "Eden of The East",
+        "watched": false,
+        "indications": [
+          { "indicatorId": "f7562b8c-24ca-4ea3-865a-cce81d94765b", "indicatorName": "Caio", "animeTitle": "Jyu-Oh-Sei: Planet of the Beast King", "animeData": { "id": "953", "title": { "romaji": "Jyu-Oh-Sei: Planet of the Beast King" }, "coverImage": { "extraLarge": "https://cdn.myanimelist.net/images/anime/3/14079l.jpg" }, "averageScore": 72 } },
+          { "indicatorId": "9dd79bbd-4efd-4aea-9249-d2f595cb9721", "indicatorName": "Mario", "animeTitle": "No. 6", "animeData": { "id": "10161", "title": { "romaji": "No. 6" }, "coverImage": { "extraLarge": "https://cdn.myanimelist.net/images/anime/1474/90768l.jpg" }, "averageScore": 76 } },
+          { "indicatorId": "1f7479ec-7ea4-4a64-ad1d-9c03844514bf", "indicatorName": "Ray", "animeTitle": "Eden of The East", "animeData": { "id": "5630", "title": { "romaji": "Eden of The East" }, "coverImage": { "extraLarge": "https://cdn.myanimelist.net/images/anime/9/15033l.jpg" }, "averageScore": 77 } },
+          { "indicatorId": "a36d12ac-d93e-438e-9337-6542e0a6be7e", "indicatorName": "Mateus", "animeTitle": "Link Click", "animeData": { "id": "44074", "title": { "romaji": "Link Click" }, "coverImage": { "extraLarge": "https://cdn.myanimelist.net/images/anime/1135/114867l.jpg" }, "averageScore": 87 } },
+          { "indicatorId": "01ae7b05-2a54-42b4-b0e5-e1a56cbecb84", "indicatorName": "Viny", "animeTitle": "Blue Seed", "animeData": { "id": "998", "title": { "romaji": "Blue Seed" }, "coverImage": { "extraLarge": "https://cdn.myanimelist.net/images/anime/1151/117019l.jpg" }, "averageScore": 70 } }
+        ]
+      },
+      {
+        "id": "9dd79bbd-4efd-4aea-9249-d2f595cb9721",
+        "name": "Mario",
+        "anilistUser": "",
+        "color": "#f9a870",
+        "addedBy": "0fcd049d-0f88-440a-8164-e4741c416477",
+        "assignedGenre": "Ficção Científica",
+        "chosenAnime": "BTOOOM!",
+        "watched": false,
+        "indications": [
+          { "indicatorId": "f7562b8c-24ca-4ea3-865a-cce81d94765b", "indicatorName": "Caio", "animeTitle": "Tiger & Bunny", "animeData": { "id": "9941", "title": { "romaji": "Tiger & Bunny" }, "coverImage": { "extraLarge": "https://cdn.myanimelist.net/images/anime/13/29466l.jpg" }, "averageScore": 78 } },
+          { "indicatorId": "282653d5-8873-4407-84cc-d671a25f0041", "indicatorName": "Gonza", "animeTitle": "Noein: To Your Other Self", "animeData": { "id": "584", "title": { "romaji": "Noein: To Your Other Self" }, "coverImage": { "extraLarge": "https://cdn.myanimelist.net/images/anime/1/584l.jpg" }, "averageScore": 76 } },
+          { "indicatorId": "1f7479ec-7ea4-4a64-ad1d-9c03844514bf", "indicatorName": "Ray", "animeTitle": "BTOOOM!", "animeData": { "id": "14345", "title": { "romaji": "BTOOOM!" }, "coverImage": { "extraLarge": "https://cdn.myanimelist.net/images/anime/4/40977l.jpg" }, "averageScore": 73 } },
+          { "indicatorId": "a36d12ac-d93e-438e-9337-6542e0a6be7e", "indicatorName": "Mateus", "animeTitle": "Dead Dead Demons Dededede Destruction", "animeData": { "id": "58883", "title": { "romaji": "Dead Dead Demons Dededede Destruction" }, "coverImage": { "extraLarge": "https://cdn.myanimelist.net/images/anime/1528/143212l.jpg" }, "averageScore": 79 } },
+          { "indicatorId": "01ae7b05-2a54-42b4-b0e5-e1a56cbecb84", "indicatorName": "Viny", "animeTitle": "Dirty Pair", "animeData": { "id": "424", "title": { "romaji": "Dirty Pair" }, "coverImage": { "extraLarge": "https://cdn.myanimelist.net/images/anime/2/20673l.jpg" }, "averageScore": 72 } }
+        ]
+      },
+      {
+        "id": "1f7479ec-7ea4-4a64-ad1d-9c03844514bf",
+        "name": "Ray",
+        "anilistUser": "",
+        "color": "#8fbc8f",
+        "addedBy": "0fcd049d-0f88-440a-8164-e4741c416477",
+        "assignedGenre": "Mecha/Espacial",
+        "chosenAnime": "Moonrise",
+        "watched": false,
+        "indications": [
+          { "indicatorId": "f7562b8c-24ca-4ea3-865a-cce81d94765b", "indicatorName": "Caio", "animeTitle": "SSSS.Gridman", "animeData": { "id": "35847", "title": { "romaji": "SSSS.Gridman" }, "coverImage": { "extraLarge": "https://cdn.myanimelist.net/images/anime/1973/95616l.jpg" }, "averageScore": 71 } },
+          { "indicatorId": "282653d5-8873-4407-84cc-d671a25f0041", "indicatorName": "Gonza", "animeTitle": "Infinite Ryvius", "animeData": { "id": "593", "title": { "romaji": "Infinite Ryvius" }, "coverImage": { "extraLarge": "https://cdn.myanimelist.net/images/anime/3/16734l.jpg" }, "averageScore": 74 } },
+          { "indicatorId": "9dd79bbd-4efd-4aea-9249-d2f595cb9721", "indicatorName": "Mario", "animeTitle": "Moonrise", "animeData": { "id": "38903", "title": { "romaji": "Moonrise" }, "coverImage": { "extraLarge": "https://cdn.myanimelist.net/images/anime/1181/148693l.jpg" }, "averageScore": 68 } },
+          { "indicatorId": "a36d12ac-d93e-438e-9337-6542e0a6be7e", "indicatorName": "Mateus", "animeTitle": "Neon Genesis Evangelion", "animeData": { "id": "30", "title": { "romaji": "Neon Genesis Evangelion" }, "coverImage": { "extraLarge": "https://cdn.myanimelist.net/images/anime/1314/108941l.jpg" }, "averageScore": 84 } },
+          { "indicatorId": "01ae7b05-2a54-42b4-b0e5-e1a56cbecb84", "indicatorName": "Viny", "animeTitle": "Tenchi Muyo! War on Geminar", "animeData": { "id": "5781", "title": { "romaji": "Tenchi Muyo! War on Geminar" }, "coverImage": { "extraLarge": "https://cdn.myanimelist.net/images/anime/2/20345l.jpg" }, "averageScore": 77 } }
+        ]
+      },
+      {
+        "id": "01ae7b05-2a54-42b4-b0e5-e1a56cbecb84",
+        "name": "Viny",
+        "anilistUser": "",
+        "color": "#f0e68c",
+        "addedBy": "0fcd049d-0f88-440a-8164-e4741c416477",
+        "assignedGenre": "Harém",
+        "chosenAnime": "Ouran High School Host Club",
+        "watched": false,
+        "indications": [
+          { "indicatorId": "f7562b8c-24ca-4ea3-865a-cce81d94765b", "indicatorName": "Caio", "animeTitle": "Ouran High School Host Club", "animeData": { "id": "853", "title": { "romaji": "Ouran High School Host Club" }, "coverImage": { "extraLarge": "https://cdn.myanimelist.net/images/anime/2/71992l.jpg" }, "averageScore": 82 } },
+          { "indicatorId": "282653d5-8873-4407-84cc-d671a25f0041", "indicatorName": "Gonza", "animeTitle": "Hanasakeru Seishonen", "animeData": { "id": "5835", "title": { "romaji": "Hanasakeru Seishonen" }, "coverImage": { "extraLarge": "https://cdn.myanimelist.net/images/anime/1094/116584l.jpg" }, "averageScore": 77 } },
+          { "indicatorId": "9dd79bbd-4efd-4aea-9249-d2f595cb9721", "indicatorName": "Mario", "animeTitle": "Romantic Killer", "animeData": { "id": "52865", "title": { "romaji": "Romantic Killer" }, "coverImage": { "extraLarge": "https://cdn.myanimelist.net/images/anime/1764/142001l.jpg" }, "averageScore": 79 } },
+          { "indicatorId": "1f7479ec-7ea4-4a64-ad1d-9c03844514bf", "indicatorName": "Ray", "animeTitle": "Mashiroiro Symphony: The Color of Lovers", "animeData": { "id": "10397", "title": { "romaji": "Mashiroiro Symphony: The Color of Lovers" }, "coverImage": { "extraLarge": "https://cdn.myanimelist.net/images/anime/9/39303l.jpg" }, "averageScore": 70 } },
+          { "indicatorId": "a36d12ac-d93e-438e-9337-6542e0a6be7e", "indicatorName": "Mateus", "animeTitle": "DNA²", "animeData": { "id": "563", "title": { "romaji": "DNA²" }, "coverImage": { "extraLarge": "https://cdn.myanimelist.net/images/anime/1433/103506l.jpg" }, "averageScore": 66 } }
+        ]
+      },
+      {
+        "id": "a36d12ac-d93e-438e-9337-6542e0a6be7e",
+        "name": "Mateus",
+        "anilistUser": "",
+        "color": "#dda0dd",
+        "addedBy": "0fcd049d-0f88-440a-8164-e4741c416477",
+        "assignedGenre": "Histórico",
+        "chosenAnime": "Yatagarasu: The Raven Does Not Choose Its Master",
+        "watched": false,
+        "indications": [
+          { "indicatorId": "f7562b8c-24ca-4ea3-865a-cce81d94765b", "indicatorName": "Caio", "animeTitle": "Yatagarasu: The Raven Does Not Choose Its Master", "animeData": { "id": "56980", "title": { "romaji": "Yatagarasu: The Raven Does Not Choose Its Master" }, "coverImage": { "extraLarge": "https://cdn.myanimelist.net/images/anime/1084/142685l.jpg" }, "averageScore": 81 } },
+          { "indicatorId": "9dd79bbd-4efd-4aea-9249-d2f595cb9721", "indicatorName": "Mario", "animeTitle": "Basilisk", "animeData": { "id": "67", "title": { "romaji": "Basilisk" }, "coverImage": { "extraLarge": "https://cdn.myanimelist.net/images/anime/1103/133549l.jpg" }, "averageScore": 75 } },
+          { "indicatorId": "282653d5-8873-4407-84cc-d671a25f0041", "indicatorName": "Gonza", "animeTitle": "Moribito - Guardian of the Spirit", "animeData": { "id": "1827", "title": { "romaji": "Moribito - Guardian of the Spirit" }, "coverImage": { "extraLarge": "https://cdn.myanimelist.net/images/anime/4/50337l.jpg" }, "averageScore": 81 } },
+          { "indicatorId": "1f7479ec-7ea4-4a64-ad1d-9c03844514bf", "indicatorName": "Ray", "animeTitle": "Baccano!", "animeData": { "id": "2251", "title": { "romaji": "Baccano!" }, "coverImage": { "extraLarge": "https://cdn.myanimelist.net/images/anime/3/14547l.jpg" }, "averageScore": 84 } },
+          { "indicatorId": "01ae7b05-2a54-42b4-b0e5-e1a56cbecb84", "indicatorName": "Viny", "animeTitle": "Joker Game", "animeData": { "id": "31405", "title": { "romaji": "Joker Game" }, "coverImage": { "extraLarge": "https://cdn.myanimelist.net/images/anime/9/77523l.jpg" }, "averageScore": 70 } }
+        ]
+      }
+    ]
+  }
+}
