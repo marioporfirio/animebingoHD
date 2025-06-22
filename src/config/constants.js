@@ -30,7 +30,7 @@ import isekaiVilantaImg from '../assets/isekaivilasanta.png';
 
 // --- Configuração ---
 const localConfig = {
-  apiKey: "AIzaSyA5YqCWtFcdCyjMOKsWmtSfraMooCvLnR8",
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY || "AIzaSyA5YqCWtFcdCyjMOKsWmtSfraMooCvLnR8",
   authDomain: "anime-bingo-b1a8e.firebaseapp.com",
   projectId: "anime-bingo-b1a8e",
   storageBucket: "anime-bingo-b1a8e.firebasestorage.app",
